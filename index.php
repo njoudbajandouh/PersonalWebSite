@@ -156,7 +156,10 @@ Music
 
 </td>
 
-
+<td>
+<a href="https://github.com/njoudbajandouh"><img src="imgs/github-big-logo.png" alt="LinkedIn" style="width:40% ; height:auto;"></a>
+</td>
+</tr>
 </table></b>
 		</div>
 		 <center>
