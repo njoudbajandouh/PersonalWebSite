@@ -1,0 +1,197 @@
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family:Verdana, Geneva, sans-serif	;
+	color:#20B2AA;
+	background-color:#EEE8AA;
+	position:fixed;
+	 
+}
+
+section {
+    height: max-height:100%;
+	width: max-width:100%;
+    border: 1px solid Lavender  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment:fixed; /* Add this line */
+background-size:cover;
+ }
+
+  
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    background-color:	#000000;
+	background-image: url('imgs/giphy.gif');
+background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+	
+	
+	
+	
+}
+
+header * {
+    display: inline;
+    height: 50px;
+	 
+}
+
+header ul {
+   padding: 0;
+
+	 
+	
+	
+}
+
+header li {
+    margin-left: 20px;
+	 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+#hero .profile-img {
+    border-radius: 50%;
+	width:200px;
+
+	 
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+#hero h1 {
+    font-size: 2em;
+	
+}
+
+
+section h2 {
+    font-size: 3em;
+
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
+#hero {
+    background-image: url('imgs/giphy.gif') ;
+	
+	
+	
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imgs/2019-TNY-Non-Fiction.gif');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imgs/anime-streets-wallpaper.jpg');
+}
+#intrest {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imgs/230222.jpg');
+}
+
+
+@media screen and(max-width:600px){
+	.body,.header,.section,.footer,.hero, .about, .content ,.intrest ,.col-25, .col-75, input[type=submit]  {
+		width:100%;
+		 margin-top: 0;
+	}
+}
+@media (max-width: 767px) {
+.hero , .about, .contact , .intrest{
+
+    background-attachment: initial;
+
+}
+}
