@@ -60,15 +60,15 @@ else{
             <section id="about">
                 <div class="section-inner">
                     <b><h2 style="font-size:3vw ; color:MediumSeaGreen">About me</h2></b>
-                    <b><p style="font-size:2vw ; color:Navy">An accomplished Self-leaner :  </p></b>
-					     <b><p style="font-size:2vw ; color:Navy">AAlways strive to improve myself and gaining a new knowledge in my field.</p></b>
-						      <b><p style="font-size:2vw ; color:Navy">An ambitious job seeker : </p></b>
-							       <b><p style="font-size:2vw ; color:Navy">seeker for the suitable role which will makes me improve myself and the company at the same time. </p></b>
-								        <b><p style="font-size:2vw ; color:Navy ">A positive person :</p></b>
-										     <b><p style="font-size:2vw ; color:Navy ">I make sure to stay in the positive side .</p></b>
+                    <b><p style="font-size:2vw ; color:white">An accomplished Self-leaner :  </p></b>
+					     <b><p style="font-size:2vw ; color:white">AAlways strive to improve myself and gaining a new knowledge in my field.</p></b>
+						      <b><p style="font-size:2vw ; color:white">An ambitious job seeker : </p></b>
+							       <b><p style="font-size:2vw ; color:white">seeker for the suitable role which will makes me improve myself and the company at the same time. </p></b>
+								        <b><p style="font-size:2vw ; color:white ">A positive person :</p></b>
+										     <b><p style="font-size:2vw ; color:white ">I make sure to stay in the positive side .</p></b>
 
                     <b><h3 style="font-size:3vw ; color:MediumSeaGreen">Achievements</h3></b>
-                  <b>  <ul style="font-size:2vw ; color:Navy ; text-align:left">
+                  <b>  <ul style="font-size:2vw ; color:white ; text-align:left">
                         <li>Bachelor of Management Information Systems (IAU University), 2019</li>
 						<p></p>
 
@@ -112,7 +112,7 @@ else{
 </td>
 
 </tr>
-<tr style="font-size:2vw ; color:Navy">
+<tr style="font-size:2vw ; color:white">
 
 <td>
 Fitness
