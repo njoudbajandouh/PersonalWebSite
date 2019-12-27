@@ -75,6 +75,8 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  background-color:#333333;
+
 }
 
 label {
@@ -171,14 +173,14 @@ responsive {
 }
 
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imgs/2019-TNY-Non-Fiction.gif');
+    background-image: linear-gradient(rgb(26, 26, 26,0.75),rgb(26, 26, 26,0.75)), url('imgs/2019-TNY-Non-Fiction.gif');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imgs/anime-streets-wallpaper.jpg');
+    background-image: linear-gradient(rgb(26, 26, 26,0.75),rgb(26, 26, 26,0.75)), url('imgs/anime-streets-wallpaper.jpg');
 }
 #intrest {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('imgs/230222.jpg');
+    background-image: linear-gradient(rgb(26, 26, 26,0.75),rgb(26, 26, 26,0.75)), url('imgs/150522184231-adrian-hogan-tokyo8-entrances-super-169.jpg');
 }
 
 
