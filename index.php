@@ -60,15 +60,15 @@ else{
             <section id="about">
                 <div class="section-inner">
                     <b><h2 style="font-size:3vw ; color:MediumSeaGreen">About me</h2></b>
-                    <b><p style="font-size:2vw ; color:white">An accomplished Self-leaner :  </p></b>
-					     <b><p style="font-size:2vw ; color:white">AAlways strive to improve myself and gaining a new knowledge in my field.</p></b>
-						      <b><p style="font-size:2vw ; color:white">An ambitious job seeker : </p></b>
-							       <b><p style="font-size:2vw ; color:white">seeker for the suitable role which will makes me improve myself and the company at the same time. </p></b>
-								        <b><p style="font-size:2vw ; color:white ">A positive person :</p></b>
-										     <b><p style="font-size:2vw ; color:white ">I make sure to stay in the positive side .</p></b>
+                    <b><p style="font-size:2vw ; color:#e6e6e6">An accomplished Self-leaner :  </p></b>
+					     <b><p style="font-size:2vw ; color:#e6e6e6">Always strive to improve myself and gaining a new knowledge in my field.</p></b>
+						      <b><p style="font-size:2vw ; color:#e6e6e6">An ambitious job seeker : </p></b>
+							       <b><p style="font-size:2vw ; color:#e6e6e6">seeker for the suitable role which will makes me improve myself and the company at the same time. </p></b>
+								        <b><p style="font-size:2vw ; color:#e6e6e6 ">A positive person :</p></b>
+										     <b><p style="font-size:2vw ; color:#e6e6e6 ">I make sure to stay in the positive side .</p></b>
 
                     <b><h3 style="font-size:3vw ; color:MediumSeaGreen">Achievements</h3></b>
-                  <b>  <ul style="font-size:2vw ; color:white ; text-align:left">
+                  <b>  <ul style="font-size:2vw ; color:#e6e6e6 ; text-align:left">
                         <li>Bachelor of Management Information Systems (IAU University), 2019</li>
 						<p></p>
 
@@ -112,7 +112,7 @@ else{
 </td>
 
 </tr>
-<tr style="font-size:2vw ; color:white">
+<tr style="font-size:2vw ; color:#e6e6e6">
 
 <td>
 Fitness
@@ -141,8 +141,8 @@ Music
 			
                     <h2 style="font-size:3vw ; color:MediumSeaGreen">You can find me on:</h2>
 					
-							<div style="overflow-x:auto;">
-<b><table style="margin-center: 100px;">
+						<div style="overflow-x:auto;">
+<table style="margin-center: 100px;">
 <tr>
 
 <td>
@@ -152,18 +152,19 @@ Music
 </td>
 
 <td>
-<a href="https://www.linkedin.com/in/njoudbajandouh"><img src="imgs/linkedin.png" alt="LinkedIn" style="width:40% ; height:auto;"></a>
+<a href="https://github.com/njoudbajandouh"><img src="imgs/github-big-logo.png" alt="GitHub" style="width:40% ; height:auto;"></a>
+
 
 </td>
 
 <td>
-<a href="https://github.com/njoudbajandouh"><img src="imgs/github-big-logo.png" alt="LinkedIn" style="width:40% ; height:auto;"></a>
+<a href="https://www.linkedin.com/in/njoudbajandouh"><img src="imgs/linkedin.png" alt="LinkedIn" style="width:40% ; height:auto;"></a>
 </td>
 </tr>
-</table></b>
+</table> 
 		</div>
-		 <center>
-		 <div class="container">
+		<center>
+ <div>
                     <h3 style="font-size:3vw ; color:MediumSeaGreen">Or leave me a Message:</h3>
 
 <center>
@@ -201,8 +202,10 @@ Music
 
 
 <?php
-$conn = mysql_connect("localhost", "root", "Judy1234"); 
+$conn = mysql_connect("localhost", "", ""); 
 $db = mysql_select_db("mydata", $conn); 
+mysql_query("SET NAMES 'utf8'");
+mysql_query('SET CHARACTER SET utf8');
 
 if(isset($_POST['submit'])){ 
 $name = $_POST['name'];
@@ -235,13 +238,11 @@ mysql_close($conn);
 </tr>
 </table>
 </form>
-
-
-</div>
-</b>
 </center>
 </b>
-          </div>
+
+</div>
+      </div>
             </section>
         </main>
        <b> <footer class="footer"  style="font-size:2vw ; color:LightSlateGray">
