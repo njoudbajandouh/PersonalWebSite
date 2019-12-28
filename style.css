@@ -21,7 +21,7 @@ section {
 
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed; 
+    background-attachment:scroll; 
 background-size:cover;
  }
 
@@ -100,8 +100,8 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
+  background-color:transparent;
 }
 
 .col-25 {
